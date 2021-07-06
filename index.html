@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REDHOST</title>
-    <link rel="shortcut icon" href="image/host.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="image/host.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -20,10 +20,10 @@
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <li><a href="#search">Search</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <!--END OF NAVIGATION-->
@@ -48,7 +48,7 @@
       <div class="left">
         <h3>
           Search Your <br />
-          Domaine Now
+          <span class="domain">Domaine</span> Now
         </h3>
       </div>
       <div class="right">
@@ -58,10 +58,20 @@
           placeholder="Enter Your Domain Name"
         />
         <a href="#" class="btn-search">Search</a><br /><br />
-        <input type="radio" name="range" value="price" />.com(10.99 $)
-        <input type="radio" name="range" value="price" />.net(8.99 $)
-        <input type="radio" name="range" value="price" />.org(5.99 $)
-        <input type="radio" name="range" value="price" />.in(4.99 $)
+        <div class="end-domain">
+          <div class="com">
+            <input type="radio" name="range" value="price" />.com 10.99 $
+          </div>
+          <div class="net">
+            <input type="radio" name="range" value="price" />.net 8.99 $
+          </div>
+          <div class="org">
+            <input type="radio" name="range" value="price" />.org 5.99 $
+          </div>
+          <!-- <div class="in">
+            <input type="radio" name="range" value="price" />.in 4.99$
+          </div>        -->
+        </div>
       </div>
     </div>
     <!--END OF SEARCH-->
@@ -85,19 +95,6 @@
               <a href="#"><button class="btn-price">Sign Up</button></a>
             </li>
           </ul>
-          <!--box-2-->
-          <ul class="ul">
-            <li id="head2">Medium Plan</li>
-            <li id="bg">15.99$</li>
-            <li><b>75GB</b> Disk Space</li>
-            <li><b>50GB</b> Data Transfer</li>
-            <li><b>10</b> Domain</li>
-            <li><b>100</b> Email Accounts</li>
-            <li><b>Unlimited</b> FTP Accounts</li>
-            <li id="bg">
-              <a href="#"><button class="btn-price">Sign Up</button></a>
-            </li>
-          </ul>
           <!--box-3-->
           <ul class="ul">
             <li id="head">Businees Plan</li>
@@ -106,6 +103,19 @@
             <li><b>100GB</b> Data Transfer</li>
             <li><b>Unlimited</b> Domain</li>
             <li><b>Unlimited</b> Email Accounts</li>
+            <li><b>Unlimited</b> FTP Accounts</li>
+            <li id="bg">
+              <a href="#"><button class="btn-price">Sign Up</button></a>
+            </li>
+          </ul>
+          <!--box-2-->
+          <ul class="ul">
+            <li id="head2">Medium Plan</li>
+            <li id="bg">15.99$</li>
+            <li><b>75GB</b> Disk Space</li>
+            <li><b>50GB</b> Data Transfer</li>
+            <li><b>10</b> Domain</li>
+            <li><b>100</b> Email Accounts</li>
             <li><b>Unlimited</b> FTP Accounts</li>
             <li id="bg">
               <a href="#"><button class="btn-price">Sign Up</button></a>
